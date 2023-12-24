@@ -104,7 +104,7 @@ if es.indices.exists(index=index_name):
 
 es.indices.create(index=index_name, body=configurations)
 
-extracted_dir = 'C:\\Users\\karam\\OneDrive\\Desktop\\IR Project\\archive'
+extracted_dir = 'archive'
 
 def extract_georeferences(text):
   doc = nlp(text)
